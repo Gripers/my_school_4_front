@@ -38,7 +38,7 @@ const Form = () => {
       <h1>My School</h1>
       <form onSubmit={(event) => handleSubmit(event)}>
         <Input placeholder='Name' />
-        <Input placeholder='Number' />
+        <Input type='number' placeholder='Number' />
         <Button type='submit' color='blue' appearance='primary'>
           {isLoading ? <Spinner /> : "Ro'yxatdan o'tish"}
         </Button>
